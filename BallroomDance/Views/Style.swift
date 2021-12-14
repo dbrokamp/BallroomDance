@@ -25,14 +25,15 @@ struct Style_Previews: PreviewProvider {
 }
 
 struct BoxScrollView: View {
+    
     var body: some View {
         ScrollView(Axis.Set.horizontal) {
             HStack(spacing: Globals.alignment.leading) {
-                ForEach(0..<10) { item in
+                ForEach(AmericanSmooth.dances) { dance in
                     NavigationLink(destination: {
                         DanceDetailView()
                     }, label: {
-                        DanceBox()
+                        DanceBox(dance: dance.name)
                         
                     })
                 }

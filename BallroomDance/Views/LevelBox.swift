@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct LevelBox: View {
+    
+    var level: String
+    
     var body: some View {
         ZStack {
             Rectangle()
                 .frame(width: .infinity, height: 100)
                 .foregroundColor(Color.bronze)
-            Text("Dance Level")
+            Text(level)
                 .foregroundColor(.white)
                 .font(.title2)
         }
@@ -22,6 +25,6 @@ struct LevelBox: View {
 
 struct LevelBox_Previews: PreviewProvider {
     static var previews: some View {
-        LevelBox()
+        LevelBox(level: "Level")
     }
 }

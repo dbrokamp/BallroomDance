@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DanceBox: View {
+    
+    var dance: String
+    
     var body: some View {
         ZStack(alignment: .bottomLeading) {
             Rectangle()
@@ -17,7 +20,7 @@ struct DanceBox: View {
                 .resizable()
                 .opacity(0.3)
                 .padding()
-            Text("Dance1")
+            Text(dance)
                 .foregroundColor(.white)
                 .bold()
                 .fontWeight(.heavy)
@@ -35,6 +38,6 @@ struct DanceBox: View {
 
 struct DanceBox_Previews: PreviewProvider {
     static var previews: some View {
-        DanceBox()
+        DanceBox(dance: "DanceName")
     }
 }
