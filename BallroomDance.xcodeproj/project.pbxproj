@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6625E646275AF8A000CD740E /* DanceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E645275AF8A000CD740E /* DanceDetailView.swift */; };
+		6625E647275AF8A000CD740E /* DanceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E645275AF8A000CD740E /* DanceDetailView.swift */; };
+		6625E648275AF8A000CD740E /* DanceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E645275AF8A000CD740E /* DanceDetailView.swift */; };
+		6625E64A275AFD6300CD740E /* LevelBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E649275AFD6300CD740E /* LevelBox.swift */; };
+		6625E64B275AFD6300CD740E /* LevelBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E649275AFD6300CD740E /* LevelBox.swift */; };
+		6625E64C275AFD6300CD740E /* LevelBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E649275AFD6300CD740E /* LevelBox.swift */; };
+		6625E64E275B00FE00CD740E /* ApprovedFiguresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E64D275B00FE00CD740E /* ApprovedFiguresView.swift */; };
+		6625E64F275B00FE00CD740E /* ApprovedFiguresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E64D275B00FE00CD740E /* ApprovedFiguresView.swift */; };
+		6625E650275B00FE00CD740E /* ApprovedFiguresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E64D275B00FE00CD740E /* ApprovedFiguresView.swift */; };
+		6625E652275B02EB00CD740E /* FigureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E651275B02EB00CD740E /* FigureDetailView.swift */; };
+		6625E653275B02EB00CD740E /* FigureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E651275B02EB00CD740E /* FigureDetailView.swift */; };
+		6625E654275B02EB00CD740E /* FigureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E651275B02EB00CD740E /* FigureDetailView.swift */; };
+		6625E656275B042C00CD740E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E655275B042C00CD740E /* Model.swift */; };
+		6625E657275B042C00CD740E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E655275B042C00CD740E /* Model.swift */; };
+		6625E658275B042C00CD740E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E655275B042C00CD740E /* Model.swift */; };
 		6692F85D27571446006E2E80 /* BallroomDanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F85C27571446006E2E80 /* BallroomDanceApp.swift */; };
 		6692F85F27571446006E2E80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F85E27571446006E2E80 /* ContentView.swift */; };
 		6692F86127571447006E2E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6692F86027571447006E2E80 /* Assets.xcassets */; };
@@ -14,6 +29,24 @@
 		6692F86E27571448006E2E80 /* BallroomDanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F86D27571448006E2E80 /* BallroomDanceTests.swift */; };
 		6692F87827571448006E2E80 /* BallroomDanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F87727571448006E2E80 /* BallroomDanceUITests.swift */; };
 		6692F87A27571448006E2E80 /* BallroomDanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F87927571448006E2E80 /* BallroomDanceUITestsLaunchTests.swift */; };
+		6692F888275714BA006E2E80 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F887275714BA006E2E80 /* Division.swift */; };
+		6692F889275714BA006E2E80 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F887275714BA006E2E80 /* Division.swift */; };
+		6692F88A275714BA006E2E80 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F887275714BA006E2E80 /* Division.swift */; };
+		6692F88C275714CE006E2E80 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88B275714CE006E2E80 /* Style.swift */; };
+		6692F88D275714CE006E2E80 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88B275714CE006E2E80 /* Style.swift */; };
+		6692F88E275714CE006E2E80 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88B275714CE006E2E80 /* Style.swift */; };
+		6692F890275714E1006E2E80 /* DanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88F275714E1006E2E80 /* DanceBox.swift */; };
+		6692F891275714E1006E2E80 /* DanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88F275714E1006E2E80 /* DanceBox.swift */; };
+		6692F892275714E1006E2E80 /* DanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88F275714E1006E2E80 /* DanceBox.swift */; };
+		66F2F497275968B700DAEFEB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F496275968B700DAEFEB /* Globals.swift */; };
+		66F2F498275968B700DAEFEB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F496275968B700DAEFEB /* Globals.swift */; };
+		66F2F499275968B700DAEFEB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F496275968B700DAEFEB /* Globals.swift */; };
+		66F2F49B27596C7B00DAEFEB /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F49A27596C7B00DAEFEB /* Learn.swift */; };
+		66F2F49C27596C7B00DAEFEB /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F49A27596C7B00DAEFEB /* Learn.swift */; };
+		66F2F49D27596C7B00DAEFEB /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F49A27596C7B00DAEFEB /* Learn.swift */; };
+		66F2F49F27596E5700DAEFEB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F49E27596E5700DAEFEB /* Colors.swift */; };
+		66F2F4A027596E5700DAEFEB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F49E27596E5700DAEFEB /* Colors.swift */; };
+		66F2F4A127596E5700DAEFEB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F49E27596E5700DAEFEB /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +67,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6625E645275AF8A000CD740E /* DanceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceDetailView.swift; sourceTree = "<group>"; };
+		6625E649275AFD6300CD740E /* LevelBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBox.swift; sourceTree = "<group>"; };
+		6625E64D275B00FE00CD740E /* ApprovedFiguresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedFiguresView.swift; sourceTree = "<group>"; };
+		6625E651275B02EB00CD740E /* FigureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureDetailView.swift; sourceTree = "<group>"; };
+		6625E655275B042C00CD740E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6692F85927571446006E2E80 /* BallroomDance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallroomDance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6692F85C27571446006E2E80 /* BallroomDanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallroomDanceApp.swift; sourceTree = "<group>"; };
 		6692F85E27571446006E2E80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +82,12 @@
 		6692F87327571448006E2E80 /* BallroomDanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallroomDanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6692F87727571448006E2E80 /* BallroomDanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallroomDanceUITests.swift; sourceTree = "<group>"; };
 		6692F87927571448006E2E80 /* BallroomDanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallroomDanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6692F887275714BA006E2E80 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		6692F88B275714CE006E2E80 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		6692F88F275714E1006E2E80 /* DanceBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceBox.swift; sourceTree = "<group>"; };
+		66F2F496275968B700DAEFEB /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		66F2F49A27596C7B00DAEFEB /* Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
+		66F2F49E27596E5700DAEFEB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +138,14 @@
 		6692F85B27571446006E2E80 /* BallroomDance */ = {
 			isa = PBXGroup;
 			children = (
+				6692F86227571447006E2E80 /* Preview Content */,
+				6692F86027571447006E2E80 /* Assets.xcassets */,
 				6692F85C27571446006E2E80 /* BallroomDanceApp.swift */,
 				6692F85E27571446006E2E80 /* ContentView.swift */,
-				6692F86027571447006E2E80 /* Assets.xcassets */,
-				6692F86227571447006E2E80 /* Preview Content */,
+				6692F886275714A7006E2E80 /* Views */,
+				66F2F496275968B700DAEFEB /* Globals.swift */,
+				66F2F49E27596E5700DAEFEB /* Colors.swift */,
+				6625E655275B042C00CD740E /* Model.swift */,
 			);
 			path = BallroomDance;
 			sourceTree = "<group>";
@@ -125,6 +173,21 @@
 				6692F87927571448006E2E80 /* BallroomDanceUITestsLaunchTests.swift */,
 			);
 			path = BallroomDanceUITests;
+			sourceTree = "<group>";
+		};
+		6692F886275714A7006E2E80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66F2F49A27596C7B00DAEFEB /* Learn.swift */,
+				6692F887275714BA006E2E80 /* Division.swift */,
+				6692F88B275714CE006E2E80 /* Style.swift */,
+				6692F88F275714E1006E2E80 /* DanceBox.swift */,
+				6625E645275AF8A000CD740E /* DanceDetailView.swift */,
+				6625E649275AFD6300CD740E /* LevelBox.swift */,
+				6625E64D275B00FE00CD740E /* ApprovedFiguresView.swift */,
+				6625E651275B02EB00CD740E /* FigureDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +321,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6692F85F27571446006E2E80 /* ContentView.swift in Sources */,
+				6625E64E275B00FE00CD740E /* ApprovedFiguresView.swift in Sources */,
+				66F2F49F27596E5700DAEFEB /* Colors.swift in Sources */,
+				66F2F49B27596C7B00DAEFEB /* Learn.swift in Sources */,
+				6692F888275714BA006E2E80 /* Division.swift in Sources */,
+				6625E64A275AFD6300CD740E /* LevelBox.swift in Sources */,
+				6625E656275B042C00CD740E /* Model.swift in Sources */,
+				66F2F497275968B700DAEFEB /* Globals.swift in Sources */,
 				6692F85D27571446006E2E80 /* BallroomDanceApp.swift in Sources */,
+				6692F88C275714CE006E2E80 /* Style.swift in Sources */,
+				6625E652275B02EB00CD740E /* FigureDetailView.swift in Sources */,
+				6692F890275714E1006E2E80 /* DanceBox.swift in Sources */,
+				6625E646275AF8A000CD740E /* DanceDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +340,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6692F889275714BA006E2E80 /* Division.swift in Sources */,
+				6625E653275B02EB00CD740E /* FigureDetailView.swift in Sources */,
+				6625E647275AF8A000CD740E /* DanceDetailView.swift in Sources */,
+				6625E657275B042C00CD740E /* Model.swift in Sources */,
+				6692F891275714E1006E2E80 /* DanceBox.swift in Sources */,
+				66F2F49C27596C7B00DAEFEB /* Learn.swift in Sources */,
+				66F2F4A027596E5700DAEFEB /* Colors.swift in Sources */,
+				6625E64B275AFD6300CD740E /* LevelBox.swift in Sources */,
+				6692F88D275714CE006E2E80 /* Style.swift in Sources */,
+				66F2F498275968B700DAEFEB /* Globals.swift in Sources */,
 				6692F86E27571448006E2E80 /* BallroomDanceTests.swift in Sources */,
+				6625E64F275B00FE00CD740E /* ApprovedFiguresView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +360,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6692F87A27571448006E2E80 /* BallroomDanceUITestsLaunchTests.swift in Sources */,
+				6625E650275B00FE00CD740E /* ApprovedFiguresView.swift in Sources */,
+				66F2F4A127596E5700DAEFEB /* Colors.swift in Sources */,
+				66F2F49D27596C7B00DAEFEB /* Learn.swift in Sources */,
+				6692F88A275714BA006E2E80 /* Division.swift in Sources */,
+				6625E64C275AFD6300CD740E /* LevelBox.swift in Sources */,
+				6625E658275B042C00CD740E /* Model.swift in Sources */,
+				66F2F499275968B700DAEFEB /* Globals.swift in Sources */,
 				6692F87827571448006E2E80 /* BallroomDanceUITests.swift in Sources */,
+				6692F88E275714CE006E2E80 /* Style.swift in Sources */,
+				6625E654275B02EB00CD740E /* FigureDetailView.swift in Sources */,
+				6692F892275714E1006E2E80 /* DanceBox.swift in Sources */,
+				6625E648275AF8A000CD740E /* DanceDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
