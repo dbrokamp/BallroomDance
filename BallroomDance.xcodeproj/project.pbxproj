@@ -72,7 +72,7 @@
 		6625E64D275B00FE00CD740E /* ApprovedFiguresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedFiguresView.swift; sourceTree = "<group>"; };
 		6625E651275B02EB00CD740E /* FigureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureDetailView.swift; sourceTree = "<group>"; };
 		6625E655275B042C00CD740E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		6692F85927571446006E2E80 /* BallroomDance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallroomDance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6692F85927571446006E2E80 /* Ballroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ballroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6692F85C27571446006E2E80 /* BallroomDanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallroomDanceApp.swift; sourceTree = "<group>"; };
 		6692F85E27571446006E2E80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6692F86027571447006E2E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		6692F85A27571446006E2E80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6692F85927571446006E2E80 /* BallroomDance.app */,
+				6692F85927571446006E2E80 /* Ballroom.app */,
 				6692F86927571448006E2E80 /* BallroomDanceTests.xctest */,
 				6692F87327571448006E2E80 /* BallroomDanceUITests.xctest */,
 			);
@@ -207,7 +207,7 @@
 			);
 			name = BallroomDance;
 			productName = BallroomDance;
-			productReference = 6692F85927571446006E2E80 /* BallroomDance.app */;
+			productReference = 6692F85927571446006E2E80 /* Ballroom.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6692F86827571448006E2E80 /* BallroomDanceTests */ = {
@@ -529,7 +529,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DrewBrokamp.BallroomDance;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ballroom;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -558,7 +558,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DrewBrokamp.BallroomDance;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ballroom;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
