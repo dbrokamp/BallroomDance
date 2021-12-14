@@ -7,4 +7,8 @@
 
 import Foundation
 
+struct Model {
+    let levels = ["Bronze", "Silver", "Gold"]
+}
+
 

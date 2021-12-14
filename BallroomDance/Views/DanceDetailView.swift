@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DanceDetailView: View {
+    
+    
+    
     var body: some View {
         VStack {
             Text("Waltz")
