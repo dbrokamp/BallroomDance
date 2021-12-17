@@ -24,7 +24,7 @@ struct DanceBox: View {
                 .foregroundColor(.white)
                 .bold()
                 .fontWeight(.heavy)
-                .font(.title)
+                .font(.title2)
                 .padding(.leading, Globals.alignment.leading)
                 .padding(.bottom, 10.0)
                 .shadow(color: .black, radius: 1.0, x: 2.0, y: 2.0)

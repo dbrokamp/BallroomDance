@@ -11,8 +11,8 @@ struct Learn: View {
     var body: some View {
         ScrollView {
             VStack {
-                Division()
-                Division()
+                Division(name: AmericanSmooth.division)
+                Division(name: InternationlBallroom.division)
             }
         }.navigationTitle("Learn")
             .navigationBarTitleDisplayMode(.inline)

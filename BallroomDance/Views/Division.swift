@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct Division: View {
+    
+    var name: String
+    
     var body: some View {
         VStack {
             Divider()
                 .padding(.leading, Globals.alignment.leading)
                 .padding(.trailing, 10)
             VStack(alignment: .leading) {
-                Text("American")
+                Text(name)
                     .font(.largeTitle)
                     .padding(.leading, Globals.alignment.leading)
                     .padding(.bottom, 10)
@@ -32,6 +35,6 @@ struct Division: View {
 
 struct Division_Previews: PreviewProvider {
     static var previews: some View {
-        Division()
+        Division(name: "Test")
     }
 }

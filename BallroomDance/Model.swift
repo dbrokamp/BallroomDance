@@ -28,3 +28,5 @@ struct Dance: Identifiable {
 let levels = [Level(name: "Bronze"), Level(name: "Silver"), Level(name: "Gold")]
 
 let AmericanSmooth = DanceStyle(division: "American", style: "Smooth", dances: [Dance(name: "Waltz"), Dance(name: "Tango"), Dance(name: "Foxtrot"), Dance(name: "Viennese Waltz")])
+
+let InternationlBallroom = DanceStyle(division: "International", style: "Ballroom", dances: [Dance(name: "Waltz"), Dance(name: "Tango"), Dance(name: "Viennese Waltz"), Dance(name: "Slow Foxtrot"), Dance(name: "Quickstep")])
