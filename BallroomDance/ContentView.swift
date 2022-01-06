@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -19,11 +22,12 @@ struct ContentView: View {
                 NavigationLink(destination: {  }, label: {
                     Text("Create Routine")
                         .padding()
-                        .foregroundColor(.blue)
+                        .foregroundColor(.blue)            
                 })
             }.navigationTitle("Ballroom Dance")
         }
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {

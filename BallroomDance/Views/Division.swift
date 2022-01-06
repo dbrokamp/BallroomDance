@@ -21,11 +21,11 @@ struct Division: View {
                     .font(.largeTitle)
                     .padding(.leading, Globals.alignment.leading)
                     .padding(.bottom, 10)
-                Style()
+                Style(style: "StyleName")
                 Divider()
                     .padding(.top, 20)
                     .padding(.leading, Globals.alignment.leading)
-                Style()
+                Style(style: "StyleName")
             }
         }.navigationTitle("Learn")
             .navigationBarTitleDisplayMode(.inline)

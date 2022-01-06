@@ -22,6 +22,9 @@
 		6625E656275B042C00CD740E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E655275B042C00CD740E /* Model.swift */; };
 		6625E657275B042C00CD740E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E655275B042C00CD740E /* Model.swift */; };
 		6625E658275B042C00CD740E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6625E655275B042C00CD740E /* Model.swift */; };
+		667963482774153200BB5E18 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = 667963472774153200BB5E18 /* testData.json */; };
+		667963492774153200BB5E18 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = 667963472774153200BB5E18 /* testData.json */; };
+		6679634A2774153200BB5E18 /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = 667963472774153200BB5E18 /* testData.json */; };
 		6692F85D27571446006E2E80 /* BallroomDanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F85C27571446006E2E80 /* BallroomDanceApp.swift */; };
 		6692F85F27571446006E2E80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F85E27571446006E2E80 /* ContentView.swift */; };
 		6692F86127571447006E2E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6692F86027571447006E2E80 /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 		6692F890275714E1006E2E80 /* DanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88F275714E1006E2E80 /* DanceBox.swift */; };
 		6692F891275714E1006E2E80 /* DanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88F275714E1006E2E80 /* DanceBox.swift */; };
 		6692F892275714E1006E2E80 /* DanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692F88F275714E1006E2E80 /* DanceBox.swift */; };
+		66ED0EBF276E874B00904ECB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 66ED0EBE276E874B00904ECB /* data.json */; };
+		66ED0EC0276E874B00904ECB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 66ED0EBE276E874B00904ECB /* data.json */; };
+		66ED0EC1276E874B00904ECB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 66ED0EBE276E874B00904ECB /* data.json */; };
 		66F2F497275968B700DAEFEB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F496275968B700DAEFEB /* Globals.swift */; };
 		66F2F498275968B700DAEFEB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F496275968B700DAEFEB /* Globals.swift */; };
 		66F2F499275968B700DAEFEB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2F496275968B700DAEFEB /* Globals.swift */; };
@@ -72,6 +78,7 @@
 		6625E64D275B00FE00CD740E /* ApprovedFiguresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedFiguresView.swift; sourceTree = "<group>"; };
 		6625E651275B02EB00CD740E /* FigureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureDetailView.swift; sourceTree = "<group>"; };
 		6625E655275B042C00CD740E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		667963472774153200BB5E18 /* testData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testData.json; sourceTree = "<group>"; };
 		6692F85927571446006E2E80 /* Ballroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ballroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6692F85C27571446006E2E80 /* BallroomDanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallroomDanceApp.swift; sourceTree = "<group>"; };
 		6692F85E27571446006E2E80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +92,7 @@
 		6692F887275714BA006E2E80 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		6692F88B275714CE006E2E80 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		6692F88F275714E1006E2E80 /* DanceBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceBox.swift; sourceTree = "<group>"; };
+		66ED0EBE276E874B00904ECB /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		66F2F496275968B700DAEFEB /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		66F2F49A27596C7B00DAEFEB /* Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
 		66F2F49E27596E5700DAEFEB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -138,6 +146,7 @@
 		6692F85B27571446006E2E80 /* BallroomDance */ = {
 			isa = PBXGroup;
 			children = (
+				667963472774153200BB5E18 /* testData.json */,
 				6692F86227571447006E2E80 /* Preview Content */,
 				6692F86027571447006E2E80 /* Assets.xcassets */,
 				6692F85C27571446006E2E80 /* BallroomDanceApp.swift */,
@@ -146,6 +155,7 @@
 				66F2F496275968B700DAEFEB /* Globals.swift */,
 				66F2F49E27596E5700DAEFEB /* Colors.swift */,
 				6625E655275B042C00CD740E /* Model.swift */,
+				66ED0EBE276E874B00904ECB /* data.json */,
 			);
 			path = BallroomDance;
 			sourceTree = "<group>";
@@ -295,7 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6692F86427571447006E2E80 /* Preview Assets.xcassets in Resources */,
+				66ED0EBF276E874B00904ECB /* data.json in Resources */,
 				6692F86127571447006E2E80 /* Assets.xcassets in Resources */,
+				667963482774153200BB5E18 /* testData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +315,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66ED0EC0276E874B00904ECB /* data.json in Resources */,
+				667963492774153200BB5E18 /* testData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +324,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66ED0EC1276E874B00904ECB /* data.json in Resources */,
+				6679634A2774153200BB5E18 /* testData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

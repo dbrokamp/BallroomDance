@@ -1,0 +1,43 @@
+{
+    {
+        "name": "American"
+        "styles":   [ {
+                        "name": "Smooth"
+                        "dances": [
+                                    {
+                                        "name": "Waltz"
+                                        "description": ""
+                                        "levels": [
+                                                    {
+                                                        "name": "Bronze"
+                                                        "figures": [
+                                                                        {
+                                                                            "name": ""
+                                                                            "description": ""
+                                                                        },
+                                                                        {
+                                                                            "name": ""
+                                                                            "description": ""
+                                                                        }
+                                                                   ]
+                                                    },
+                                                    {
+                                                        "name": "Silver"
+                                                        "figures": [
+                                                                        {
+                                                                            "name": ""
+                                                                            "description": ""
+                                                                        },
+                                                                        {
+                                                                            "name": ""
+                                                                            "description": ""
+                                                                        }
+                                                                   ]
+                                                    }
+                                                  ]
+                                    }
+                                  ]
+                      }
+                    ]
+    }
+}

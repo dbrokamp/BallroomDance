@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct Style: View {
+    
+    var style: String
+    
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Smooth")
+            Text(style)
                 .padding(.leading, Globals.alignment.leading)
                 .font(.title3)
             BoxScrollView()
@@ -20,7 +23,7 @@ struct Style: View {
 
 struct Style_Previews: PreviewProvider {
     static var previews: some View {
-        Style()
+        Style(style: "StyleName")
     }
 }
 
@@ -31,7 +34,7 @@ struct BoxScrollView: View {
             HStack(spacing: Globals.alignment.leading) {
                 ForEach(AmericanSmooth.dances) { dance in
                     NavigationLink(destination: {
-                        DanceDetailView()
+                        DanceDetailView(dance: "DanceName")
                     }, label: {
                         DanceBox(dance: dance.name)
                         

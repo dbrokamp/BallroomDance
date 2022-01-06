@@ -1,0 +1,15 @@
+{
+    "persons": [ {
+        "name": "Drew",
+        "age": 35,
+        "pets": [   {
+                        "name": "Stella",
+                        "animal": "dog"
+                    }
+                ]
+    }, {
+        "name": "Cory",
+        "age": 27
+    }
+    ]
+}
